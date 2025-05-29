@@ -17,7 +17,7 @@ Given('el usuario está en la página de login', async function () {
 });
 
 When('se identifica con credenciales válidas', async function () {
-    await this.page.fill('input[name="username"]', 'demousergh2');
+    await this.page.fill('input[name="username"]', 'demousergh');
     await this.page.fill('input[name="password"]', 'demousergh');
     await this.page.click('input[name="signon"]');
 });
